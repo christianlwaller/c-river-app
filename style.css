@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #eee;
+    padding: 2rem;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.feature {
+    max-width: 200px;
+}
+
+.testimonials {
+    background-color: #ddd;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
